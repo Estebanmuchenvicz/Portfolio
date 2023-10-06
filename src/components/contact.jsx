@@ -1,3 +1,6 @@
+import { AiFillLinkedin } from 'react-icons/ai';
+
+
 function Contact() {
     return (
       <div>
@@ -24,14 +27,14 @@ function Contact() {
             <p>esteban.muchenvicz@gmail.com</p>
             </a>
           </div>
-          <div >
+          <div className='flex'>
             <a
               href="https://www.linkedin.com/in/esteban-muchenvicz"
               target="_blank"
               rel="noreferrer"
             >
-              <i></i>
-            <p>Nicolas Francken</p>
+              <i><AiFillLinkedin size={50} /></i>
+            
             </a>
           </div>
         </div>
