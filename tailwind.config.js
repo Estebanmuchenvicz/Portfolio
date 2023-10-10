@@ -12,11 +12,16 @@ export default {
         },
         fontFamily: {
           custom: ["Montserrat", "sans-serif"],
+          custom1: ['Bungee Shade', 'cursive'],
+          custom2: ['Concert One', 'cursive'],
+          custom3:['Lalezar', 'cursive'],
+          custom4:['Black Han Sans', 'sans-serif']
         },
         fontSize: {
           '2xl': '1.5rem',
           '3xl': '2rem',
           '4xl': '2.5rem',
+          '5xl': '3.5rem'
         },
       },
     },

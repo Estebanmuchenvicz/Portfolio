@@ -1,9 +1,11 @@
 
 function About() {
   return (
-    <div id="about">
-    <div>
-      <h2>Sobre Mi</h2>
+    <section id="about">
+      
+    <div className="bg-white shadow-lg p-6 rounded-xl card">
+    <div >
+      <h2 className="text-center text-3xl mt-8 font-bold">Sobre Mi</h2>
     </div>
     <div >
       <div>
@@ -12,6 +14,7 @@ function About() {
       </div>
     </div>
   </div>
+    </section>
   )
 }
 

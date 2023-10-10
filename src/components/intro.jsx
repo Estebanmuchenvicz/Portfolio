@@ -1,22 +1,22 @@
-import Perfil from '../assets/img/imgPerfil.png'
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
+import coding from '../assets/img/Hand coding-bro.svg';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 function Intro() {
   return (
     <section id="home">
-            <div className="bg-white shadow-lg p-6 rounded-xl card">
-        <div className="grid grid-cols-2 gap-8 intro-top">
+      <div className="bg-white shadow-lg p-6 rounded-xl card">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 intro-top">
           <div className="relative intro-title">
-            <h1 className="text-4xl text-black gradient-text leading-tight">
-              Full-Stack Web Developer.
+            <h1 className="text-5xl text-black gradient-text font-custom4 leading-tight">
+              Full Stack Web Developer
             </h1>
-            <p className="intro-p">
+            <p className="intro-p text-2xl">
               Hola soy <span className="font-bold text-violet-600">Esteban Muchenvicz</span>.<br />Un apasionado Desarrollador Web Full-Stack de Argentina.
             </p>
             <ul className="intro-ul flex space-x-4 mt-4">
               <li>
-              <i><AiFillLinkedin size={40} /></i>
+                <i><AiFillLinkedin size={40} /></i>
                 <a
                   href="https://www.linkedin.com/in/esteban-muchenvicz/"
                   target="_blank"
@@ -26,7 +26,7 @@ function Intro() {
                 </a>
               </li>
               <li>
-              <i><AiFillGithub size={40} /></i>
+                <i><AiFillGithub size={40} /></i>
                 <a
                   href="https://github.com/Estebanmuchenvicz"
                   target="_blank"
@@ -37,11 +37,10 @@ function Intro() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col items-center justify-center">
-          <div className="rounded-full overflow-hidden intro-img sm:w-80 sm:h-80 mx-auto mt-4">
-  <img src={Perfil} alt="Perfil" className="w-full h-auto object-cover" />
-</div>
-
+          <div className="flex flex-col items-center justify-center mt-4 sm:mt-0">
+            <div className="rounded-full overflow-hidden intro-img sm:w-80 sm:h-80 mx-auto">
+              <img src={coding} alt="Perfil" className="w-full h-auto object-cover" />
+            </div>
           </div>
         </div>
       </div>
