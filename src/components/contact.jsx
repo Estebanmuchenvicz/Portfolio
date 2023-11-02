@@ -1,8 +1,8 @@
-import { AiFillLinkedin, AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai';
-
+import { AiFillLinkedin, AiOutlineMail, AiOutlineWhatsApp, AiFillGithub } from 'react-icons/ai';
+import { FaFileDownload } from 'react-icons/fa';
 function Contact() {
   return (
-    <div className="p-4 space-y-4 bg-white shadow-lg rounded-xl card items-center">
+    <div id="contact" className="p-4 space-y-4 bg-white shadow-lg rounded-xl card items-center">
       <h2>Contact</h2>
       <h3>
         If you are interested in <span>hiring</span> me, <span>call</span> me, <span>email</span> me, or <span>connect</span> and chat with me via LinkedIn!
@@ -23,10 +23,38 @@ function Contact() {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://www.linkedin.com/in/esteban-muchenvicz" target="_blank" rel="noreferrer" className="flex items-center">
-            <i><AiFillLinkedin/></i>
-            <p>Esteban Muchenvicz</p>
-          </a>
+        <ul className="intro-ul flex space-x-4 mt-4">
+              <li>
+                <i><AiFillLinkedin size={40} /></i>
+                <a
+                  href="https://www.linkedin.com/in/esteban-muchenvicz/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="bx bx-md bxl-linkedin-square"></i>
+                </a>
+              </li>
+              <li>
+                <i><AiFillGithub size={40} /></i>
+                <a
+                  href="https://github.com/Estebanmuchenvicz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="bx bxl-github"></i>
+                </a>
+              </li>
+              <li>
+                <i><FaFileDownload size={40} /></i>
+                <a
+                  href="https://github.com/Estebanmuchenvicz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="bx bxl-github"></i>
+                </a>
+              </li>
+            </ul>
         </div>
       </div>
 
