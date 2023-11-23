@@ -5,6 +5,7 @@ import project3 from "../assets/img/rick-and-morty-pi.png";
 import project4 from "../assets/img/proyecto-final-custom.craft.png"; 
 import 'animate.css';
 import {BsWordpress} from 'react-icons/bs'
+import { FaReact, FaPhp } from "react-icons/fa";
 
 function Projects (){
 
@@ -13,14 +14,15 @@ function Projects (){
       title: "Hit Zone FM",
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: project1,
-      skills: <BsWordpress/>,
-      linkProy: "https://pf-teesa-front.vercel.app/"
+      skills: (<div className="flex"><BsWordpress/> <FaReact /> <FaPhp /></div>),
+      linkProy: "https://hitzonefm.com.ar/",
+      linkGit: ""
     },
     {
       title: "Hit Zone FM",
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: project4,
-      skills: <BsWordpress/>,
+      skills: <FaReact />,
       linkProy: "https://pf-teesa-front.vercel.app/"
     },
     {

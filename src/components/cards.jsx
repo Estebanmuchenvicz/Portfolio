@@ -1,10 +1,12 @@
 import {Card, CardHeader, CardFooter, Image, Button} from "@nextui-org/react";
+import { TbWorldWww } from "react-icons/tb";
+import { AiFillGithub } from 'react-icons/ai';
 
 function Cards({ title, description, imgUrl,linkProy, skills }) {
   return (
 <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
       <CardHeader className="absolute z-10 top-1 flex-col items-start">
-        <p className="text-tiny text-white/60 uppercase font-bold">{description}</p>
+        <p className="text-tiny text-white/60 uppercase font-bold"></p>
       </CardHeader>
       <Image
         removeWrapper
@@ -24,7 +26,11 @@ function Cards({ title, description, imgUrl,linkProy, skills }) {
             <p className="text-tiny text-white/60">{skills}</p>
           </div>
         </div>
-        <Button radius="full" size="sm">Get App</Button>
+        <div >
+        <Button radius="full" size="sm" onClick={() => window.open(linkProy, "_blank")}><TbWorldWww className="text-white"/></Button>
+        <Button radius="full" size="sm"><AiFillGithub className="text-white"/></Button>
+        </div>
+
       </CardFooter>
     </Card>
 

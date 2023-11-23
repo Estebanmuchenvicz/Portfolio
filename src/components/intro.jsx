@@ -1,6 +1,7 @@
 // import Perfil from '../assets/img/imgPerfil.png'
 // import cv from '../assets/img/adobe-pdf-icon.svg'
 import coding from '../assets/img/Hand coding-bro.svg';
+import { AiOutlineMail} from 'react-icons/ai';
 
 
 function Intro() {
@@ -15,11 +16,12 @@ function Intro() {
             <p className="intro-p text-2xl">
               Desarrollador Web Full-Stack
             </p>
-            <div className="mt-6">
+            <div className="mt-6 flex">
   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    <a href="#contact">Contactame</a>
+    <a href="#contact" className="flex items-center">Contáctame<span className="ml-1"></span><AiOutlineMail className=""/></a>
   </button>
 </div>
+
 
           </div>
           <div className="flex flex-col items-center justify-center mt-4 sm:mt-0">
