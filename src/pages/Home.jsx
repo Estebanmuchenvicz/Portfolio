@@ -12,8 +12,8 @@ const Home = () => {
     <section >
       <NavBar/>
       <Intro/>
-      <Skills/>
       <About />
+      <Skills/>
       <Projects/>
       <Contact id="contact"/>
       <Footer />

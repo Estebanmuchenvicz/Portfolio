@@ -1,6 +1,43 @@
 import { AiFillLinkedin, AiOutlineMail, AiOutlineWhatsApp, AiFillGithub } from 'react-icons/ai';
 import { FaFileDownload } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
+import Swal from 'sweetalert2';
+
 function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const templateParams = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    emailjs
+      .send('service_xcfpjg9', 'template_nafoehr', templateParams, '_O6TRrXpNk2akiVBM')
+      .then((response) => {
+        console.log('Correo enviado con éxito:', response);
+        showAlert('Correo enviado con éxito');
+      })
+      .catch((error) => {
+        console.error('Error al enviar el correo:', error);
+        showAlert('Error al enviar el correo');
+      });
+  };
+
+  const showAlert = (message, type) => {
+    Swal.fire({
+      icon: type, // 'success' o 'error'
+      title: message,
+      showConfirmButton: false,
+      timer: 3000, // Ocultar el mensaje después de 3 segundos (puedes ajustar este valor)
+    });
+  };
   return (
     <div id="contact" className="p-4 space-y-4 bg-white shadow-lg rounded-xl card items-center">
       <h2>Contact</h2>
@@ -59,21 +96,41 @@ function Contact() {
       </div>
 
       <div className="md:grid md:grid-cols-2 md:gap-4">
-        <form className="w-full">
-          <div className="mb-4">
-            <label className="block mb-2">Name:</label>
-            <input type="text" className="w-full p-2 border rounded" placeholder="Name"/>
-          </div>
-          <div className="mb-4">
-            <label className="block mb-2">Email:</label>
-            <input type="text" className="w-full p-2 border rounded" placeholder="Mail"/>
-          </div>
-          <div className="mb-4">
-            <label className="block mb-2">Message:</label>
-            <textarea className="w-full p-2 border rounded" rows={5} placeholder="Message"/>
-          </div>
-          <button type="submit" className="bg-blue-500 text-white p-2 rounded">Enviar</button>
-        </form>
+      <form className="w-full" onSubmit={handleSubmit}>
+        <div className="mb-4">
+          <label className="block mb-2">Name:</label>
+          <input
+            type="text"
+            className="w-full p-2 border rounded"
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block mb-2">Email:</label>
+          <input
+            type="text"
+            className="w-full p-2 border rounded"
+            placeholder="Mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block mb-2">Message:</label>
+          <textarea
+            className="w-full p-2 border rounded"
+            rows={5}
+            placeholder="Message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+        </div>
+        <button type="submit" className="bg-blue-500 text-white p-2 rounded">
+          Enviar
+        </button>
+      </form>
       </div>
       </div>
     </div>
