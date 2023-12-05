@@ -11,7 +11,7 @@ function Intro() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 intro-top">
           <div className="relative intro-title">
             <h1 className="text-5xl text-black gradient-text font-custom4 leading-tight">
-            Hola!👋  soy <span className="font-bold text-violet-600">Esteban Muchenvicz</span>
+            Hola! soy <span className="font-bold text-violet-600">Esteban Muchenvicz</span>
             </h1>
             <p className="intro-p text-2xl">
               Desarrollador Web Full-Stack

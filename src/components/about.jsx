@@ -1,12 +1,12 @@
-import Perfil from '../assets/img/Developer-activity-bro.png';
+import Perfil from '../assets/img/Developer-activity-bro.svg';
 import { FaArrowRight } from "react-icons/fa";
 
 function About() {
   return (
     <section id="about" className="flex flex-col md:flex-row m-4">
-      <div className="mb-4 md:mr-4 md:mb-0" style={{ width: '400px', height: '400px' }}>
+      <div className="mb-4 md:mr-4 md:mb-0" style={{ width: '100%', height: '400px' }}>
         {/* Añadir estilos al elemento img para cambiar su tamaño */}
-        <img src={Perfil} alt="" className="w-full md:w-180 h-auto" />
+        <img src={Perfil} alt="" className="w-full h-full object-cover" />
       </div>
       <div>
         <div>
@@ -22,7 +22,7 @@ function About() {
               Mantenerme al tanto de las últimas tendencias y herramientas de desarrollo es una prioridad para mí, ya que considero que la innovación constante es esencial para ofrecer soluciones tecnológicas efectivas y de vanguardia.
             </p>
             <button className="bg-transparent text-blue-500 px-4 py-2 rounded-lg flex items-center relative">
-              <span className="border-b-2 border-blue-500 mr-1 flex items-center" data-key="curriculumBtn">Mi Curriculum <span className="mr-2"></span><FaArrowRight /></span>
+              <span className="border-b-2 border-violet-600 mr-1 flex items-center" data-key="curriculumBtn">Mi Curriculum <span className="mr-2"></span><FaArrowRight className="bg-transparent text-violet-600"/></span>
             </button>
           </div>
         </div>

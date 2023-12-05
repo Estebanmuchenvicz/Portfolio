@@ -2,7 +2,7 @@ import {Card, CardHeader, CardFooter, Image, Button} from "@nextui-org/react";
 import { TbWorldWww } from "react-icons/tb";
 import { AiFillGithub } from 'react-icons/ai';
 
-function Cards({ title, description, imgUrl,linkProy, skills }) {
+function Cards({ title, description, imgUrl,linkProy, skills,logo }) {
   return (
 <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
       <CardHeader className="absolute z-10 top-1 flex-col items-start">
@@ -19,11 +19,11 @@ function Cards({ title, description, imgUrl,linkProy, skills }) {
           <Image
             alt="Breathing app icon"
             className="rounded-full w-10 h-11 bg-black"
-            src={imgUrl}
+            src={logo}
           />
           <div className="flex flex-col">
-            <p className="text-tiny text-white/60">{title}</p>
-            <p className="text-tiny text-white/60">{skills}</p>
+            <p className="text-tiny text-white/100">{title}</p>
+            <p className="text-tiny text-white/70">{skills}</p>
           </div>
         </div>
         <div className="flex space-x-1">

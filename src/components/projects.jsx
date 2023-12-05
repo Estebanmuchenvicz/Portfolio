@@ -16,28 +16,35 @@ function Projects (){
       imgUrl: project1,
       skills: (<div className="flex"><BsWordpress/> <FaReact /> <FaPhp /></div>),
       linkProy: "https://hitzonefm.com.ar/",
-      linkGit: ""
+      linkGit: "",
+      logo:"https://i.ibb.co/SQCXJpH/Logo-redondo-hit-zone-2023.png"
     },
     {
-      title: "Hit Zone FM",
+      title: "Custom Craft",
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: project4,
-      skills: <FaReact />,
-      linkProy: "https://pf-teesa-front.vercel.app/"
+      skills: (<div className="flex"><FaReact /></div>),
+      linkProy: "https://pf-teesa-front.vercel.app/",
+      linkGit: "",
+      logo:"https://i.ibb.co/dMsByG7/Dise-o-Base-de-logo-Custom-Craft-blue.png"
     },
     {
-      title: "Recipe Ship",
+      title: "Videogames",
       description: "Aplicación Web para los amantes de las recetas, el usuario puede navegar, filtrar, y crear datos acerca de recetas.",
       imgUrl: project2,
-      linkProy: "https://github.com/Oscarcito122/proyectoindivualfood/tree/master"
-
+      skills: (<div className="flex"><FaReact /></div>),
+      linkProy: "https://github.com/Oscarcito122/proyectoindivualfood/tree/master",
+      linkGit: "",
+      logo:project2
     },
     {
-      title: "Portfolio",
+      title: "Rick and Morty",
       description: "Portafolio en línea responsive para destacar mis proyectos como desarrollador web frontend. ¡Tú estás aquí! Gracias por entrar.",
       imgUrl: project3,
-      linkProy: "https://portfolio-pi-eight-25.vercel.app/"
-
+      skills: (<div className="flex"><FaReact /></div>),
+      linkProy: "https://portfolio-pi-eight-25.vercel.app/",
+      linkGit: "",
+      logo:"https://i.ibb.co/CtfF7vR/img-login.webp"
     },
   ];
 
