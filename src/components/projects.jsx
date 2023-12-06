@@ -55,7 +55,7 @@ function Projects (){
         <div className="flex flex-wrap -mx-2">
           {projects.map((project, index) => {
             return (
-              <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 mb-4">
+              <div key={index} className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 px-2 mb-4">
                 <Cards {...project} />
               </div>
             );
@@ -64,7 +64,7 @@ function Projects (){
       </div>
     </section>
   )
- }
+}  
 export default Projects;
 
 

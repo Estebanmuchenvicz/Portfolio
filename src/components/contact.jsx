@@ -40,12 +40,12 @@ function Contact() {
   return (
     <div id="contact" className="flex flex-col items-center justify-center p-4 space-y-4 h-screen">
       <div className="bg-white shadow-lg rounded-xl card max-w-md p-6">
-        <h1 className="text-center text-2xl font-bold mb-4">Trabajemos Juntos!</h1>
-        <p className="text-center mb-4">
+        <h1 className="text-2xl font-bold mb-4">Trabajemos Juntos!</h1>
+        <p className="mb-4">
           Sería muy interesante hablar sobre cómo podríamos desarrollar un próximo proyecto juntos.
           Puedes contactarme por este medio, WhatsApp, Email o LinkedIn.
         </p>
-        <p className="text-center mb-4">Te responderé lo antes posible!</p>
+        <p className="mb-4">Te responderé lo antes posible!</p>
   
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-4">
