@@ -49,9 +49,9 @@ function Projects (){
   ];
 
   return (
-    <section className="project" id="projects">
-      <div className="container mx-auto px-4">
-        <h2 className="text-center text-3xl mt-8 font-bold">Proyectos</h2>
+    <section className="projects" id="projects">
+      <div className="container mx-auto px-4 ">
+        <h2 className="text-center text-3xl mt-8 font-bold mb-8">Proyectos</h2>
         <div className="flex flex-wrap -mx-2">
           {projects.map((project, index) => {
             return (

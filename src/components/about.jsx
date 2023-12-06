@@ -8,7 +8,7 @@ function About() {
     window.open(linkToRedirect, '_blank');
   };
   return (
-    <section id="about" className="flex flex-col md:flex-row m-4">
+    <section id="about" className="flex flex-col md:flex-row m-4 mt-8 mb-8">
       <div className="mb-4 md:mr-4 md:mb-0" style={{ width: '100%', height: '400px' }}>
         {/* Añadir estilos al elemento img para cambiar su tamaño */}
         <img src={Perfil} alt="" className="w-full h-full object-cover" />

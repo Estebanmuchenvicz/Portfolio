@@ -14,7 +14,7 @@ const Home = () => {
       <Intro/>
       <About />
       <Skills/>
-      <Projects/>
+      <Projects />
       <Contact id="contact"/>
       <Footer />
     </section>
