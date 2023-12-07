@@ -27,8 +27,8 @@ function Cards({ title, description, imgUrl,linkProy, skills,logo }) {
           </div>
         </div>
         <div className="flex space-x-1">
-        <Button className="text-white text-lg p-2" onClick={() => window.open(linkProy, "_blank")}><FaExternalLinkAlt className="w-5 h-5"/></Button>
-        <Button className="text-white text-lg p-2"><AiFillGithub className="w-6 h-6"/></Button>
+        <Button className="text-white text-lg p-2 hover:scale-110" onClick={() => window.open(linkProy, "_blank")}><FaExternalLinkAlt className="w-5 h-5"/></Button>
+        <Button className="text-white text-lg p-2 hover:scale-110"><AiFillGithub className="w-6 h-6"/></Button>
         </div>
 
       </CardFooter>

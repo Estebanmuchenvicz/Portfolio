@@ -77,7 +77,7 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="bg-violet-500 text-white p-2 rounded mt-4"
+            className="bg-violet-500 text-white p-2 rounded mt-4 hover:bg-violet-900"
           >
             Enviar
           </button>

@@ -7,13 +7,13 @@ function Footer() {
         <h2>Esteban Muchenvicz</h2>
         <div className="flex flex-col items-center">
         <ul className="intro-ul flex space-x-4 mt-4">
-        <li>
+        <li >
         <a
                 href="https://wa.me/543755491171"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span><AiOutlineWhatsApp size={40} /></span>
+                <span ><AiOutlineWhatsApp size={40} className='hover:text-violet-900 hover:scale-105'/></span>
               </a>
               </li>
               <li>
@@ -22,7 +22,7 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span><AiOutlineMail size={40} /></span>
+                <span><AiOutlineMail size={40} className='hover:text-violet-900 hover:scale-105'/></span>
               </a>
               </li>
               <li>
@@ -31,7 +31,7 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span><AiFillLinkedin size={40} /></span>
+                <span><AiFillLinkedin size={40} className='hover:text-violet-900 hover:scale-105'/></span>
               </a>
               </li>
               <li>
@@ -40,7 +40,7 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span><AiFillGithub size={40} /></span>
+                <span><AiFillGithub size={40} className='hover:text-violet-900 hover:scale-105'/></span>
               </a>
               </li>
               {/* <li>
