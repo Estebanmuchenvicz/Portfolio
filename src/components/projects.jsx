@@ -24,8 +24,8 @@ function Projects (){
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: project4,
       skills: (<div className="flex"><FaReact /></div>),
-      linkProy: "https://pf-teesa-front.vercel.app/",
-      linkGit: "",
+      linkProy: "https://proyecto-final-eight-beige.vercel.app/",
+      linkGit: "https://github.com/fedeMaidana/Proyecto_Final",
       logo:"https://i.ibb.co/dMsByG7/Dise-o-Base-de-logo-Custom-Craft-blue.png"
     },
     {
@@ -33,8 +33,8 @@ function Projects (){
       description: "Aplicación Web para los amantes de las recetas, el usuario puede navegar, filtrar, y crear datos acerca de recetas.",
       imgUrl: project2,
       skills: (<div className="flex"><FaReact /></div>),
-      linkProy: "https://github.com/Oscarcito122/proyectoindivualfood/tree/master",
-      linkGit: "",
+      linkProy: "https://pi-videogames-ecru.vercel.app/",
+      linkGit: "https://github.com/Estebanmuchenvicz/PI-Videogames",
       logo:project2
     },
     {
@@ -42,8 +42,8 @@ function Projects (){
       description: "Portafolio en línea responsive para destacar mis proyectos como desarrollador web frontend. ¡Tú estás aquí! Gracias por entrar.",
       imgUrl: project3,
       skills: (<div className="flex"><FaReact /></div>),
-      linkProy: "https://portfolio-pi-eight-25.vercel.app/",
-      linkGit: "",
+      linkProy: "https://rick-and-morty-pi-ten.vercel.app/",
+      linkGit: "https://github.com/Estebanmuchenvicz/Rick_and_Morty",
       logo:"https://i.ibb.co/CtfF7vR/img-login.webp"
     },
   ];
