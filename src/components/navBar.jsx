@@ -33,13 +33,13 @@ const Navbar = () => {
           <img src="/logo.webp" alt="Logo" className="w-10 h-10" />
         </div>
         <div className="flex space-x-4">
-          <a href="#home"             className={`text-black hover:border-b-2 border-violet-500 ${
+          {/* <a href="#home"             className={`text-black hover:border-b-2 border-violet-500 ${
               activeLink === 'home' ? 'border-b-2 border-violet-500' : ''
             }`}
             onClick={() => handleLinkClick('home')}
 >
             Home
-          </a>
+          </a> */}
           <a href="#about" className={`text-black hover:border-b-2 border-violet-500 ${
               activeLink === 'about' ? 'border-b-2 border-violet-500' : ''
             }`}
