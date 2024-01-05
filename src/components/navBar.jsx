@@ -30,7 +30,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4">
-          <img src="/logo.webp" alt="Logo" className="w-10 h-10" />
+        <a href="#home" onClick={() => handleLinkClick('home')}>
+            <img src="/logo.webp" alt="Logo" className="w-10 h-10" />
+          </a>
         </div>
         <div className="flex space-x-4">
           {/* <a href="#home"             className={`text-black hover:border-b-2 border-violet-500 ${
