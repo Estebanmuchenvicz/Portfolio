@@ -27,7 +27,7 @@ function About() {
               Mantenerme al tanto de las últimas tendencias y herramientas de desarrollo es una prioridad para mí, ya que considero que la innovación constante es esencial para ofrecer soluciones tecnológicas efectivas y de vanguardia.
             </p>
             <button className="bg-transparent text-violet-500 px-4 py-2 rounded-lg flex items-center relative hover:scale-105" onClick={handleButtonClick}>
-              <span className="border-b-2 border-violet-600 mr-1 flex items-center" data-key="curriculumBtn">Mi Curriculum <span className="mr-2"></span><FaArrowRight className="bg-transparent text-violet-600"/></span>
+              <span className="border-b-2 border-violet-600 mr-1 flex items-center" data-key="curriculumBtn">Mi Curriculum <span className="mr-2"></span><FaArrowRight className="bg-transparent text-violet-600"/></span><a href="https://drive.google.com/file/d/12WlHTcFxY2PZtXKwd3BBg4dWp4mqNf-C/view?usp=drive_link"></a>
             </button>
           </div>
         </div>
