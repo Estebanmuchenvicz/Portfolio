@@ -1,31 +1,32 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-      extend: {
-        colors: {
-          primary: "#FF5733",
-          secondary: "#3366FF",
-        },
-        fontFamily: {
-          custom: ["Montserrat", "sans-serif"],
-          custom1: ['Bungee Shade', 'cursive'],
-          custom2: ['Concert One', 'cursive'],
-          custom3:['Lalezar', 'cursive'],
-          custom4:['Black Han Sans', 'sans-serif']
-        },
-        fontSize: {
-          '2xl': '1.5rem',
-          '3xl': '2rem',
-          '4xl': '2.5rem',
-          '5xl': '3.5rem'
-        },
+  darkMode: "class", 
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#FF5733",
+        secondary: "#3366FF",
+      },
+      fontFamily: {
+        custom: ["Montserrat", "sans-serif"],
+        custom1: ['Bungee Shade', 'cursive'],
+        custom2: ['Concert One', 'cursive'],
+        custom3:['Lalezar', 'cursive'],
+        custom4:['Black Han Sans', 'sans-serif']
+      },
+      fontSize: {
+        '2xl': '1.5rem',
+        '3xl': '2rem',
+        '4xl': '2.5rem',
+        '5xl': '3.5rem'
       },
     },
-    variants: {},
-    plugins: [],
-  };
+  },
+  plugins: [],
+};
+
   

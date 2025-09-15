@@ -2,7 +2,7 @@ import Perfil from '../assets/img/Developer-activity-bro.svg';
 import { FaArrowRight } from "react-icons/fa";
 
 function About() {
-  const linkToRedirect = "https://drive.google.com/file/d/12WlHTcFxY2PZtXKwd3BBg4dWp4mqNf-C/view?usp=sharing";
+  const linkToRedirect = "https://drive.google.com/file/d/1xUUV_lDN83akxU3ntG6P7b5EVsIBfPV5/view?usp=sharing";
 
   const handleButtonClick = () => {
     window.open(linkToRedirect, '_blank');
@@ -16,7 +16,7 @@ function About() {
       <div>
         <div>
           <div>
-            <h3 className="text-4xl font-bold mb-4 underline">Sobre Mí</h3>
+            {/* <h3 className="text-4xl font-bold mb-4 underline">Sobre Mí</h3> */}
             <p className="mb-4 text-lg">
               Dentro del campo del desarrollo front-end, me especializo en la creación de interfaces atractivas que cautivan a los usuarios.
             </p>

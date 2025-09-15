@@ -7,7 +7,7 @@ import { AiOutlineMail} from 'react-icons/ai';
 function Intro() {
   return (
     <section id="home" >
-      <div className="bg-white shadow-lg p-6 rounded-xl card mt-16 mb-16">
+      <div className="bg-white dark:bg-[#1E1E2E] p-6 rounded-xl card mt-16 mb-16 text-black dark:text-white transition-colors">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 intro-top">
           <div className="relative intro-title">
             <h1 className="text-3xl text-black gradient-text font-custom4 leading-tight">

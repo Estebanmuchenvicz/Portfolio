@@ -6,19 +6,19 @@ import Skills from "../components/skills";
 import NavBar from "../components/navBar";
 import Projects from "../components/projects";
 
-const Home = () => {
-  
+const Home = ({ darkMode, setDarkMode }) => {
   return (
-    <section >
-      <NavBar/>
-      <Intro/>
+    <section>
+      <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
+      <Intro />
       <About />
-      <Skills/>
+      <Skills />
       <Projects />
-      <Contact id="contact"/>
+      <Contact id="contact" />
       <Footer />
     </section>
   );
 };
 
 export default Home;
+

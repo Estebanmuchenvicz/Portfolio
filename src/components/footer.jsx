@@ -2,7 +2,7 @@ import { AiFillLinkedin, AiOutlineMail, AiOutlineWhatsApp, AiFillGithub } from '
 // import { FaFileDownload } from 'react-icons/fa';
 function Footer() {
   return (
-    <div className="mt-8 mb-8">
+    <section className="mt-8 mb-8">
           <div className="flex flex-col justify-center items-center">
         <h2>Esteban Muchenvicz</h2>
         <div className="flex flex-col items-center">
@@ -56,7 +56,7 @@ function Footer() {
             </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
