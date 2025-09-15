@@ -87,7 +87,6 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          
           <button
             type="submit"
             className="bg-violet-500 text-white p-2 rounded mt-4 hover:bg-violet-900 transition-colors"
