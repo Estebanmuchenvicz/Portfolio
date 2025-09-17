@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState("");
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   // Detecta el scroll
   useEffect(() => {
